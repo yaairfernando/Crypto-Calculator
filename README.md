@@ -9,8 +9,6 @@
 <p align="center">
  <h2 align="center"> CryptoCurrency Calculator</h2>
 
-  ---
-
   <p align="center">
       In this project We'll put together a CryptoCurrency Calculator with Ruby and Rails and React 
     <br />
@@ -24,22 +22,27 @@
     <a href="https://github.com/YairFernando67/Crypto-Calculator/issues">Request Feature</a>
   </p>
 
-  ---
-
 </p>
 
 ## Table of Contents
 * [About the Project](#about-the-project)
+  * [JSX](#JSX)
+  * [HTML VS JSX](#Differences-between-html-and-jsx)
+  * [Class Components](#Class-Components)
+  * [Reusable Components](#Reusable-Components)
+  * [Component Nesting](#Component-Nesting)
+  * [Component Resuability](#Component-Resuability)
+  * [Component Configuration](#Component-Configuration)
   * [Built With](#built-with)
-  * [REACT-ROUTER](#REACT-ROUTER)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+<!-- * [Acknowledgements](#acknowledgements) -->
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
+### JSX
 <p> 
-  JSX is literally pure JavaScript but browsers do not know how to read JSX
+  JSX is essentially pure JavaScript but browsers do not know how to read JSX
   so that's why we use Babel to convert it into JavaScript.
 </p>
 
@@ -49,7 +52,7 @@
 * JSX can reference JS variables very easly.
 * Diferent syntax for the for property on labels use this syntax htmlFor="name"
 
-<h4>Class Components</h4>
+### Class Components
 
 <h4>Benifits</h4>
   
@@ -66,7 +69,7 @@
 * State must be initialized when a component is created
 * State can only be updated using the function 'setState'
 
-<h4>Reusable Components</h4>
+### Reusable Components
 
 - PROPS
   <p> 
@@ -108,13 +111,11 @@ The project was developed using the following technologies:
 
 👤 **Yair Fernando Facio**
 
-![Screenshot Image](app/assets/images/logo.jpg) 
+<a href="https://yairfernando67.github.io/Portfolio/" target="_blank">
+    
+  ![Screenshot Image](app/assets/images/logo.jpg) 
 
-<p align="center">
-
-  Project Link: [https://github.com/YairFernando67/Crypto-Calculator](https://github.com/YairFernando67/Crypto-Calculator)
-
-</p>
+</a>
 
 - Github: [@YairFernando67](https://github.com/YairFernando67)
 - Twitter: [@YairFernando18](https://twitter.com/YairFernando18)
@@ -122,6 +123,11 @@ The project was developed using the following technologies:
 - Email: [yair.facio11@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yair.facio11@gmail.com)
 - Portfolio: [softwaredeveloper](https://yairfernando67.github.io/Portfolio/)
 
+<p align="center">
+
+  Project Link: [https://github.com/YairFernando67/Crypto-Calculator](https://github.com/YairFernando67/Crypto-Calculator)
+
+</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/YairFernando67/Crypto-Calculator.svg?style=flat-square
