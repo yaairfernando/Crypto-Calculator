@@ -25,14 +25,4 @@ ActiveRecord::Schema.define(version: 2019_12_31_023610) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "currencies", force: :cascade do |t|
-    t.string "name"
-    t.string "description"
-    t.bigint "max_supply"
-    t.string "currency_symbol"
-    t.string "slug"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
 end
