@@ -10,20 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_31_023610) do
+ActiveRecord::Schema.define(version: 2020_01_03_162021) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "curencies", force: :cascade do |t|
-    t.string "name"
-    t.string "description"
-    t.bigint "max_supply"
-    t.string "currency_symbol"
-    t.string "slug"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
 
   create_table "currencies", force: :cascade do |t|
     t.string "name"
