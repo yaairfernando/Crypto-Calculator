@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PortfolioItem from './PortfolioItem';
 
 class Portfolio extends Component {
   constructor(props){
@@ -6,6 +7,10 @@ class Portfolio extends Component {
   };
 
   render() {
+    const portfolioItems = this.props.portfolio.map((curr, index) => 
+      <PortfolioItem key={index} item={curr} />
+    )
+    const total = this.props.portfolio.reduce((prev, curr) => prev + curr.value, 0)
     return(
       <div>
         <div className="portfolio-value">
@@ -13,11 +18,11 @@ class Portfolio extends Component {
             Total Portfolio:
           </div>
           <div className="portfolio-vaue-content">
-            Total
+            {total}
           </div>
         </div>
         <div className="portfolio-items">
-        
+          {portfolioItems}
         </div>
       </div>
     )
