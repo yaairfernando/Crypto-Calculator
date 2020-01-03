@@ -24,6 +24,7 @@ class Search extends Component {
         <h1>Cryptocurrency Calculator</h1>
         <form>
           <div className="form-group">
+            <label>Search a currency</label>
             <input
               onChange={this.props.handleChange} 
               autoComplete="off" type="text" name="name" placeholder="Search here...." 
