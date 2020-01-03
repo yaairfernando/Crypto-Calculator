@@ -40,6 +40,8 @@
 
 ## About The Project
 
+![Screenshot Image](app/assets/images/logoRepo.png) 
+
 ### JSX
 <p> 
   JSX is essentially pure JavaScript but browsers do not know how to read JSX
