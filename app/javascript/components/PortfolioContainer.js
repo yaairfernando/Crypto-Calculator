@@ -37,10 +37,15 @@ class PortfolioContainer extends Component {
   }
 
   render() {
+    const validateSearch = this.state.active_currency ? <Calculate/> :
+    <Search 
+      handleSelect={this.handleSelect} 
+      search_results={this.state.search_results} 
+      handleChange={this.handleChange}
+    />
     return(
       <div>
-        <Search handleSelect={this.handleSelect} search_results={this.state.search_results} handleChange={this.handleChange} />
-        <Calculate />
+        {validateSearch}
       </div>
     )
   }
