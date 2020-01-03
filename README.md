@@ -15,7 +15,7 @@
     <a href="https://github.com/YairFernando67/Crypto-Calculator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="htthttps://github.com/YairFernando67/Crypto-Calculator">View Demo</a>
+    <a href="https://github.com/YairFernando67/Crypto-Calculator">View Demo</a>
     ·
     <a href="https://github.com/YairFernando67/Crypto-Calculator/issues">Report Bug</a>
     ·
