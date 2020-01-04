@@ -131,6 +131,16 @@ The project was developed using the following technologies:
 
 </p>
 
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/YairFernando67/Crypto-Calculator/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/YairFernando67/Crypto-Calculator.svg?style=flat-square
 [contributors-url]: https://github.com/YairFernando67/Crypto-Calculator/graphs/contributors
