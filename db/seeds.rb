@@ -6,7 +6,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-currencies = Curency.create([
+currencies = Currency.create([
   { name: 'Bitcoin', max_supply: 21000000, currency_symbol: 'BTC', slug: 'bitcoin' },
   { name: 'Ethereum', max_supply: 96096842, currency_symbol: 'ETH', slug: 'ethereum' },
   { name: 'Bitcoin Cash', max_supply: 21000000, currency_symbol: 'BCH', slug: 'bitcoin-cash' },
